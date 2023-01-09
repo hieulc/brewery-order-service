@@ -1,6 +1,7 @@
 package hieulc.spring.brewery.order.service.domain;
 
 
+import hieulc.spring.brewery.order.service.model.BeerOrderStatusEnum;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;

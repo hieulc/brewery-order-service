@@ -27,6 +27,10 @@ public class BeerOrderPagedList extends PageImpl<BeerOrderDto> implements Serial
         super(content, PageRequest.of(number, size), totalElements);
     }
 
+    public BeerOrderPagedList(List<BeerOrderDto> content, Pageable pageable, long total) {
+        super(content, pageable, total);
+    }
+
     public BeerOrderPagedList(List<BeerOrderDto> content) {
         super(content);
     }
